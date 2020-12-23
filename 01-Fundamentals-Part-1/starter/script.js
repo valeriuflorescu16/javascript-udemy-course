@@ -247,5 +247,4 @@ if (day === `monday`) {
   console.log(`not valid day`);
 }
 
-console.log('push git');
 
