@@ -92,7 +92,9 @@ console.log(`String with
 multiple
 lines`); */
 
-/*const age = 15;
+/*
+
+const age = 15;
 const isOldEnough = age >= 18;
 
 if (isOldEnough) {
@@ -200,7 +202,7 @@ if (shouldDrive) {
 }
 
 console.log(hasDriversLicense && hasGoodVision && isTired);
-*/
+
 
 const day = `thursday`;
 
@@ -246,5 +248,26 @@ if (day === `monday`) {
 } else {
   console.log(`not valid day`);
 }
+*/
+/*
+const age = 21;
+
+//age >= 18 ? console.log(`I like to drink beer`) :
+
+const drink = age >= 18 ? `wine` : `water`;
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = `wine`;
+} else {
+  drink2 = `water`;
+}
+
+console.log(drink2);
+
+console.log(`I like to drink ${drink}`);
+
+*/
 
 
