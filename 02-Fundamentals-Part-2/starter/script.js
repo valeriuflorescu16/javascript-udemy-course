@@ -172,7 +172,7 @@ if (friends.includes(`Stephen`)) {
 }
 */
 
-/*
+
 // Objects
 const valeriu = {
 
@@ -203,13 +203,8 @@ if (valeriu[interestedIn]) {
 valeriu.location = `United Kingdom`;
 valeriu[`originCountry`] = `Romania`;
 console.log(valeriu);
-*/
+
 
 //Challenge
+console.log(`${valeriu.firstName} has ${valeriu.friends.length} friends, and his best friend is ${valeriu.friends[1]}`);
 
-const valeriu = {
-
-  friends: ['Vali', 'Josh', 'Sergiu'],
-  bestFriend: friends[1]
-
-};
