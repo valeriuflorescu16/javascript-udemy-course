@@ -172,7 +172,7 @@ if (friends.includes(`Stephen`)) {
 }
 */
 
-
+/*
 // Objects
 const valeriu = {
 
@@ -207,4 +207,36 @@ console.log(valeriu);
 
 //Challenge
 console.log(`${valeriu.firstName} has ${valeriu.friends.length} friends, and his best friend is ${valeriu.friends[1]}`);
+*/
 
+/*
+const valeriu = {
+  firstName: `Valeriu`,
+  lastName: `Florescu`,
+  birthYear: 1999,
+  job: `Student`,
+  friends: [`Josh`, `Dan`, `Vali`],
+  hasDriversLicense: true,
+
+  //calcAge: function (birthYear) {
+  //return 2021 - birthYear;
+  //}
+
+  //calcAge: function () {
+  //  console.log(this);
+  //  return 2021 - this.birthYear;
+  //}
+
+  calcAge: function () {
+    this.age = 2021 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.age} years old ${this.job}, and he has ${this.hasDriversLicense ? `a` : `no`} driver's license`;
+  }
+};
+
+console.log(valeriu.calcAge());
+console.log(valeriu.getSummary());
+*/
