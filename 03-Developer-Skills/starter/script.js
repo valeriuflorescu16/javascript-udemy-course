@@ -65,15 +65,37 @@ function calcTempAmplitudeNew(t1, t2) {
 const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
 console.log(amplitudeNew);
 */
-
+/*
 const measureKelvin = function () {
   const measurement = {
     type: "temp",
     unit: "celsius",
-    value: prompt("Degrees celsius:"),
+    value: Number(prompt("Degrees celsius:")),
   };
+  //find the bug
+
+  //console.log(measurement.value);
+  //console.warn(measurement.value);
+  //console.error(measurement.value);
+  console.table(measurement);
 
   const kelvin = measurement.value + 273;
   return kelvin;
 };
-console.log(measureKelvin);
+
+console.log(measureKelvin());
+*/
+
+/*
+//Coding challenge
+
+function printForecast(arr) {
+  let tempString = "";
+  for (let i = 0; i < arr.length; i++) {
+    tempString = tempString + `${arr[i]} degrees Celsius in ${i + 1} days...`;
+  }
+  return tempString;
+}
+console.log(printForecast([17, 21, 23]));
+console.log(printForecast([12, 5, -5, 0, 4]));
+*/
