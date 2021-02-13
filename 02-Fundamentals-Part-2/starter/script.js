@@ -240,3 +240,94 @@ const valeriu = {
 console.log(valeriu.calcAge());
 console.log(valeriu.getSummary());
 */
+
+/*
+//for loop keeps running while condition is true
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repetition ${rep}.`);
+}
+*/
+
+/*
+
+const valeriuArray = [
+  `Valeriu`,
+  `Florescu`,
+  2021 - 1999,
+  `Student`,
+  [`Vali`, `Josh`, `Dan`],
+  true
+];
+
+const types = [];
+
+for (let i = 0; i < valeriuArray.length; i++) {
+  console.log(valeriuArray[i], typeof (valeriuArray[i]));
+
+  //types[i] = typeof (valeriuArray[i]);
+  types.push(typeof (valeriuArray[i]));
+}
+
+console.log(types);
+
+const years = [1999, 1972, 1995, 1998];
+const ages = [];
+
+const currentYear = 2021;
+for (let i = 0; i < years.length; i++) {
+  ages.push(currentYear - years[i]);
+}
+
+console.log(ages);
+
+// continue and break statements
+
+console.log(` ONLY STRINGS `);
+for (let i = 0; i < valeriuArray.length; i++) {
+
+  if (typeof (valeriuArray[i]) !== 'string') continue;
+
+  console.log(valeriuArray[i], typeof (valeriuArray[i]));
+}
+
+console.log(` BREAK WITH NUMBER `);
+for (let i = 0; i < valeriuArray.length; i++) {
+
+  if (typeof (valeriuArray[i]) === 'number') break;
+
+  console.log(valeriuArray[i], typeof (valeriuArray[i]));
+}
+
+const valeriuArray = [
+  `Valeriu`,
+  `Florescu`,
+  2021 - 1999,
+  `Student`,
+  [`Vali`, `Josh`, `Dan`],
+  true
+];
+
+// loop backwards
+
+for (let i = valeriuArray.length - 1; i >= 0; i--) {
+  console.log(valeriuArray[i]);
+} */
+
+
+//while loop 
+/*
+let rep = 1;
+
+while (rep <= 10) {
+  console.log(`Lifting weights repetition ${rep}.`);
+  rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+//console.log(dice);
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}.`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log(`Loop is about to end.`);
+}*/
